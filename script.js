@@ -58,7 +58,7 @@ var averageLikes = (salis, plotasKm2, gyventojuSkaicius) => {
 var average2 = ((x.plotasKm2 * 1000000) / x.gyventojuSkaicius).toFixed(2)
 
 
-console.log(`Šalis: ${salis}, joje gyvena ${gyventojuSkaicius} mln. gyventojų.Valstybės plotas:${x.plotasKm2}, plotas tenkantis vienam gyventojui: ${average2}.`)
+console.log(`Šalis: ${salis}, joje gyvena ${gyventojuSkaicius} mln. gyventojų.Valstybės plotas:${plotasKm2}, plotas tenkantis vienam gyventojui: ${average2}.`)
     console.log("++++++++")}
 
 
